@@ -8,13 +8,13 @@
 
 			<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
 				<p class="navbar-text navbar-right">
-					<a href="account.php">
+					<a href="account_info.php">
 						<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
-						<span>Welcome: <?php echo $_SESSION['uname'];?></span>
+						<span>Welcome: <?php echo $_SESSION['username'];?></span>
 					</a>
 					<a href="logout.php">
 						<span class="glyphicon glyphicon-log-out" aria-hidden="true"></span>
-						<span>Logout999</span>
+						<span>Logout</span>
 					</a>
 				</p>
 			</div>

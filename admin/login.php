@@ -3,12 +3,12 @@
 	include("../db.php");
 	$alert="none";
 	if(isset($_POST["btn-login"])) {
-		$username =mres($_POST["uname"]);
-		$password =mres($_POST["pword"]);
+		$username =mres($_POST["username"]);
+		$password =mres($_POST["password"]);
 		$qry = mysqli_query($con,"select * from tb_admin where admin_name='".$username."' and admin_pass='".md5($password)."'");
 		$count = mysqli_num_rows($qry);
 		if ($count>0) {
-			$_SESSION["uname"]=$username;
+			$_SESSION["username"]=$username;
 			header("Location: index.php");
 		}else{
 			$alert="block";
@@ -63,12 +63,12 @@
 				<form action='<?php echo $_SERVER["PHP_SELF"];?>' method="post">
 					<div style="margin-bottom: 25px" class="input-group">
 						<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-						<input type="text" name="uname" class="form-control" placeholder="Username" required oninvalid="this.setCustionValidaity('Please input Username')" oninput="setCustionValidaity('')" />
+						<input type="text" name="username" class="form-control" placeholder="Username" required oninvalid="this.setCustionValidaity('Please input Username')" oninput="setCustionValidaity('')" />
 					</div>
 
 					<div style="margin-bottom: 25px" class="input-group">
 						<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
-						<input type="password" id="login-password" name="pword" class="form-control" value="" placeholder="Password" required oninvalid="this.setCustionValidaity('Please input Password')" oninput="setCustionValidaity('')" />
+						<input type="password" id="login-password" name="password" class="form-control" value="" placeholder="Password" required oninvalid="this.setCustionValidaity('Please input Password')" oninput="setCustionValidaity('')" />
 					</div>
 
 					<div class="input-group">
