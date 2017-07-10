@@ -120,7 +120,7 @@
 										echo "<td>".$row["slide_id"]."</td>";
 										echo "<td>".$row["slide_name"]."</td>";
 										echo "<td><img src='../images/slide/".$row["slide_name"]."' width='150px' height='25px'/></td>";
-										echo "<td><a href='?name=".$row["slide_name"]."' onclick=\"return confirm('Do you want to delete this?');\"><span class='glyphicon glyphicon-remove'></span>Delete</a></td>";
+										echo "<td><a class='btn btn-danger' href='?name=".$row["slide_name"]."' onclick=\"return confirm('Do you want to delete this?');\"><span class='glyphicon glyphicon-remove'></span>Delete</a></td>";
 										echo "</tr>";
 									}
 								?>

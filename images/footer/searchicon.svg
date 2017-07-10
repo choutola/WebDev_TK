@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>Page 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Header_LightBG" transform="translate(-218.000000, -24.000000)" fill="#A6A7A7">
+            <g id="Search">
+                <g transform="translate(199.000000, 15.000000)">
+                    <path d="M19,22.1974847 L19.8024828,23 L24.2304952,18.5695413 C26.3440022,20.2848989 29.4549454,20.1579473 31.4233707,18.1917093 C33.5255431,16.0871847 33.5255431,12.680651 31.4233707,10.5761264 C29.3189313,8.47462453 25.9102685,8.47462453 23.8080961,10.5761264 C21.8426933,12.5446314 21.7157469,15.6564562 23.4272568,17.769293 L19,22.1974847 Z M24.6287141,17.4095969 C22.9821886,15.7592265 22.9905006,13.0788859 24.6498718,11.4171806 C26.3115099,9.75849785 28.991742,9.74942988 30.64129,11.3998003 C32.2915936,13.0463924 32.282526,15.7297556 30.6208879,17.389194 C28.9622723,19.0508994 26.2790177,19.0592117 24.6287141,17.4095969 L24.6287141,17.4095969 Z" id="Page-1" transform="translate(26.000000, 16.000000) scale(-1, 1) translate(-26.000000, -16.000000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
