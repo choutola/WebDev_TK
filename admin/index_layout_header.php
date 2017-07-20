@@ -2,9 +2,9 @@
 		<div class="container-fluid">
 			<div class="navbar-header col-lg-3 col-md-3 col-sm-3 col-xs-12">
 				<a href="index.php" class="navbar-brand">
-					<img src="../images/php.png" alt="">
+					<img src="../images/php.png" alt="" class="img-responsive">
 				</a>
-			</div>
+			</div><br/><br/>
 
 			<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
 				<p class="navbar-text navbar-right">

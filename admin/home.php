@@ -3,6 +3,9 @@
 	if (!isset($_SESSION["username"])) {
 		header("Location:login.php");
 	}
+	if(isset($_POST["btn-save-language"])){
+
+	}
 ?>
 
 <!DOCTYPE html>
@@ -32,7 +35,30 @@
 				
 			</div>
 			<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
-				HomePage
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h3 class="panel=title">Change Languages</h3>
+					</div>
+					<div class="panel-body">
+						<div class="form-group">
+							<form action='<?php echo $_SERVER["PHP_SELF"];?>' method="post">
+								<label for="sell">Choose Language:</label>
+								<select class="form-control" id="sell" name="language">
+									<option value="en">English</option>
+									<option value="kh">Khmer</option>
+								</select>
+								<div style="margin-top: 10px" class="form-group">
+									<div class="col-sm-12">
+										<input type="submit" name="btn-save-language" id="btn-login" class="btn btn-success" value="Save Language"/>
+									</div>
+								</div>
+							</form>
+						</div>
+
+					</div>
+				</div>
+				
+				
 			</div>
 		</div>
 	</div>

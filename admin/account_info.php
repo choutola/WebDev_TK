@@ -61,7 +61,7 @@
 	<!-- Header Layout -->
 	<?php include("index_layout_header.php");?>
 
-	<div class="container">
+	<div class="container-fluid">
 		<div class="row">
 			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
 				<!-- Menu Layout -->
